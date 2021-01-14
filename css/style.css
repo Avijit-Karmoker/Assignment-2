@@ -1,0 +1,282 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.custom-container {
+    width: 85%;
+    margin: auto;
+}
+
+.logo-image {
+    width: 350px;
+}
+
+.navigation{
+    margin-bottom: 100px;
+}
+
+.navigation-bar {
+    width: 40%;
+    float: right;
+}
+
+.navbar-items {
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.main-header{
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+
+.main-header-img {
+    width: 60%;
+    align-items: center;
+}
+
+.main-header-img img {
+    width: 100%;
+}
+
+.header
+
+.main-header-text {
+    width: 50%;
+    align-items: center;
+}
+
+.backpack {
+    color: #fb834f;
+    font-size: 90px;
+    margin-bottom: 0;
+    font-family: 'Bebas Neue', cursive;
+    padding-bottom: 0;
+    line-height: 90px;
+}
+
+.run2 {
+    font-size: 90px;
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 0;
+    line-height: 90px;
+}
+
+.left-para{
+    width: 60%;
+}
+
+.buy-button{
+    color: #fff;
+    background-color: #2a1e59;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+.icon{
+    padding-right: 10px;
+}
+
+.customer-service{
+    display: flex;
+    margin-top: 100px;
+}
+
+.customer-side{
+    width: 40%;
+    padding-right: 100px;
+}
+
+.photo{
+    width: 40%;
+    margin-left: 150px;
+}
+
+.photo img{
+    width: 100%;
+}
+
+.row-img{
+    width: 30%;
+    padding-right: 15px;
+}
+
+.row-text{
+    width: 80%;
+}
+
+.row-img img{
+    width: 100%;
+}
+
+.row-1{
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.row-2{
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.row-3{
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.price{
+    margin-right: 34%;
+    color: #76c27e;
+    font-size: 35px;
+}
+
+group{
+    height: 550px;
+}
+
+.card-body{
+    padding: 0;
+}
+
+.card1{
+    border: 0;
+    margin-right: 30px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.card2{
+    border: 0;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.card1 img{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+}
+
+.card-body{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.card2 img{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+}
+
+.casual-backpack{
+    margin: 100px 0;
+}
+
+.casual-backpack h1, h5{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.casual-backpack h1{
+    font-size: 50px;
+}
+
+.travel-backpack h1, h5{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.travel-backpack h1{
+    font-size: 50px;
+}
+
+.travel-backpack{
+    margin-bottom: 50px;
+}
+
+.footer img{
+    width: 7%;
+    margin: 20px 100px;
+}
+
+.footer{
+    text-align: center;
+    height: 300px;
+    background-color: #f1f1f1;
+    color: #000;
+    padding-top: 100px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.footer h2{
+    padding-bottom: 10px;
+}
+
+@media(max-width:560px){
+    .main-header-text{
+        width: 100%;
+        text-align: center;
+    }
+    .left-para{
+        width: 100%;
+    }
+    .main-header-img{
+        margin-top: 50px;
+    }
+    .customer-side{
+        display: block;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .customer-service{
+        display: block;
+    }
+    .photo{
+        width: 90%;
+        display: block;
+        margin-left: 0;
+        margin: auto;
+    }
+    .casual-backpack h1{
+        text-align: center;
+    }
+    .card1{
+        margin-right: 0;
+    }
+    .footer{
+        height: auto;
+    }
+    .footer img{
+        width: 20%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
